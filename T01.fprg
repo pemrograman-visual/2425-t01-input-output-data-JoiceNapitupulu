@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="JOICE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:05:28 AM"/>
+        <attribute name="created" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMDktMDY7MTA6Mjc6NDQgQU07MjI4OA=="/>
+        <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMDktMDY7MTE6MDU6MjggQU07MjsyMzk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="isbn, judul, penulis, penerbit, formatbuku" type="String" array="False" size=""/>
+            <declare name="tahunterbit, stok" type="Integer" array="False" size=""/>
+            <declare name="hargapembelian, minimummargin, rating" type="Real" array="False" size=""/>
+            <input variable="isbn"/>
+            <input variable="judul"/>
+            <input variable="penulis"/>
+            <input variable="tahunterbit"/>
+            <input variable="penerbit"/>
+            <input variable="formatbuku"/>
+            <input variable="hargapembelian"/>
+            <input variable="minimummargin"/>
+            <input variable="stok"/>
+            <input variable="rating"/>
+            <output expression="isbn &amp; &quot;|&quot; &amp; judul &amp; &quot;|&quot; &amp; penulis &amp; &quot;|&quot; &amp; tahunterbit &amp; &quot;|&quot; &amp; penerbit &amp; &quot;|&quot; &amp; formatbuku &amp; &quot;|&quot; &amp; hargapembelian &amp; &quot;|&quot; &amp; minimummargin &amp; &quot;|&quot; &amp; stok &amp; &quot;|&quot; &amp; rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
